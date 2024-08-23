@@ -13,12 +13,12 @@ app = Flask(__name__)
 # 이 데코레이터는 특정 URL(여기서는 /)에 대해
 # 해당 URL이 호출될 때 실행될 함수를지정함.
 # '/'는 root(처음)URL을 의미하고
-#  http://localhost:5000/' 에 접속할 때호출됨.
-
+#  http://l    print("hello")
 def index():
 # root URL로 접근할 때 실행될 함수.
 # Flask가 이 함수로 실행하여 응답을 생성함.
     return "안녕"
+
 # hello() 함수의 반환 값.
 # 문자열 '안녕'을 웹 브라우저에  표시함.
 # root URL에 접속하면 웹 브라우저 화면에 '안녕'이 출력됨
